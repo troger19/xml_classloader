@@ -10,3 +10,11 @@ First endpoint (/test) is calling second endpoint (/xml) in parallel stream 4 ti
 5. When assigning thead before the call, it works : Thread.currentThread().setContextClassLoader(this.getClass().getClassLoader());
 
 6. In Java 8 no problems, in IDEA no problems 
+
+## Classloaders
+
+![picture](images/1.png)
+
+![picture](images/2.png)
+
+![picture](images/3.png)
